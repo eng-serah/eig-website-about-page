@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header{
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+header img{
+  height: 50px;
+  padding: 20px;
+}
+header nav{
+    margin: 20px;
+    color: black;
+}
+header button{
+    margin: 20px;
+    text-decoration: none;
+    padding: 10px;
+    background-color: orange;
+}
+
+#banner{
+    height: 400px;
+    width: 500px;
+    background-image: url(../img/banner2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    padding: 10px;
+}
+#vision{
+    font-size: 20x;
+    font-family: sans-serif;
+    background-color: orange;
+    font-weight: bolder;
+    text-align: left;
+    margin: 10px;
+    border-radius: 20px;
+    height: 100px;
+    padding: 20px;
+}
+#values div{
+    border: solid black 10px;
+    height: 30px;
+    
+}
+#team{
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 100px;
+}
+#team div{
+    text-align: center;
+    border: 2px solid grey;
+    margin-right: 2px;
+    background-color: rgb(168, 224, 206);
+}
+#team h4{
+    color: rgb(245, 113, 5);
+}
+footer{
+    text-align: center;
+    background-color: rgba(253,97,21,255);
+    padding: 60px;
+    margin-top: 5px;
+    height: 200px;
+}
+footer button{
+    background-color: rgba(253,97,21,255);
+    color: black;
+    height: 30px;
+}
